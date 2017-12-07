@@ -2,8 +2,48 @@
 <html>
 <head>
 	<title>Brickel Test</title>
+	<link rel="stylesheet" href="slider/themes/default/default.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
+	<link rel="stylesheet" href="css/style.css" type="text/css" />
 </head>
 <body>
+	<div class="container">
+		<div class="header">
+			<h1>General Advertising</h1>
+		</div>
+		<div class="main">
+			<div class="slider-wrapper theme-default">
+				<div id="slider" class="nivoSlider">
+					<img src="images/1.jpg" data-thumb="images/1.jpg" alt="" />
+
+					<img src="images/2.jpg" data-thumb="images/2.jpg" alt="" title="This is an example of a caption" />
+
+					<img src="images/3.jpg" data-thumb="images/3.jpg" alt="" data-transition="slideInLeft" />
+
+					<img src="images/4.jpg" data-thumb="images/4.jpg" alt="" data-transition="" />
+
+				</div>
+			</div>
+		</div>
+		<div class="right">
+			<p>SDJKFNSOFGS
+			DGOSJGOPISJ
+		EGKSOERGIJSEOG</p>
+		</div>
+		<div class="footer">
+			<p class="copyright"><strong>Copyright &copy; 2017 <a href="#"><i>Javier Bastidas</a></i>.</strong> All rights reserved.</p>
+		</div>
+	</div>
 	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	<script type="text/javascript" src="slider/jquery.nivo.slider.js"></script>
+	<script type="text/javascript">
+		$(window).load(function() {
+			$('#slider').nivoSlider({
+				pauseTime: 10000
+			});
+		});
+	</script>
+
 </body>
 </html>
