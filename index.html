@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8"/>
 	<title>Brickel Test</title>
 	<link rel="stylesheet" href="slider/themes/default/default.css" type="text/css" media="screen" />
 	<link rel="stylesheet" href="slider/nivo-slider.css" type="text/css" media="screen" />
@@ -8,39 +9,49 @@
 </head>
 <body>
 	<div class="container">
+
 		<div class="header">
 			<h1>General Advertising</h1>
+
 		</div>
+
 		<div class="main">
 			<div class="slider-wrapper theme-default">
 				<div id="slider" class="nivoSlider">
-					<img src="images/1.jpg" data-thumb="images/1.jpg" alt="" />
+					<a href="#" id="1" onclick="cambiar(this.id); return false;"><img src="images/1.jpg" data-thumb="images/1.jpg" alt="" title="¿What is advertising?" height="367" /></a>
 
-					<img src="images/2.jpg" data-thumb="images/2.jpg" alt="" title="This is an example of a caption" />
+					<a href="#" id="2" onclick="cambiar(this.id); return false;"><img src="images/2.png" data-thumb="images/2.png" alt="" title="Types of advertising" height="367"/></a>
 
-					<img src="images/3.jpg" data-thumb="images/3.jpg" alt="" data-transition="slideInLeft" />
+					<a href="#" id="3" onclick="cambiar(this.id); return false;"><img src="images/3.png" data-thumb="images/3.png" alt="" title="Influence in the USA" data-transition="" height="367"/></a>
 
-					<img src="images/4.jpg" data-thumb="images/4.jpg" alt="" data-transition="" />
+					<a href="#" id="4" onclick="cambiar(this.id); return false;"><img src="images/4.jpg" data-thumb="images/4.jpg" alt="" title="Increase in sales" data-transition=""/></a>
 
+					<a href="#" id="5" onclick="cambiar(this.id); return false;"><img src="images/23.jpg" data-thumb="images/23.jpg" alt=""  title="Brochure" data-transition=""/></a>
 				</div>
 			</div>
 		</div>
-		<div class="right">
-			<p>SDJKFNSOFGS
-			DGOSJGOPISJ
-		EGKSOERGIJSEOG</p>
+
+		<div class="right" id="content">
+			<h2 ><i><strong id="inf-title">¿What is advertising?</strong></i></h2>
+			<p id="info" align="justify">Advertising is a means of communication with the users of a product or service. Advertisements are messages paid for by those who send them and are intended to inform or influence people who receive them.<br> <br> 
+			The advertising industry is made of companies that advertise, agencies that create the advertisements, media that carries the ads, and a host of people like copy editors, visualizers, brand managers, researchers, creative heads and designers who take it the last mile to the customer or receiver.
+			</p>
 		</div>
+
 		<div class="footer">
-			<p class="copyright"><strong>Copyright &copy; 2017 <a href="#"><i>Javier Bastidas</a></i>.</strong> All rights reserved.</p>
+			<img class="edificios" src="images/buildings.png" width="100" />
+			<p class="copyright"><strong>Copyright &copy; 2017 <a href="https://github.com/JavierB7" id="git"><i>Javier Bastidas</a></i>.</strong> All rights reserved.</p>
+
 		</div>
 	</div>
 	
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 	<script type="text/javascript" src="slider/jquery.nivo.slider.js"></script>
+	<script type="text/javascript" src="js/code.js"></script>
 	<script type="text/javascript">
 		$(window).load(function() {
 			$('#slider').nivoSlider({
-				pauseTime: 10000
+				pauseTime: 7000
 			});
 		});
 	</script>

@@ -7,17 +7,28 @@ h1{
     color: white;
     margin-top: 7px;
     font-family: Verdana, Geneva, sans-serif;
+    text-shadow: 3px 3px 3px black; 
 }
 
 a{
     text-decoration: none;
+    color: black;
+}
+
+#git{
+    
     color: white;
 }
 
+.edificios{
+    float: right;
+    margin-right: 5px;
+}
 .copyright{
     margin-top: 10px;
     margin-left: 5px;
     font-size: 20px;
+    width: 700px;
 }
 
 .container {
@@ -43,20 +54,20 @@ a{
 }
 
 .main{
-	width: 400px;
+	width: 600px;
 	height: 300px;
-	margin-left: 15%;
+	margin-left: 10%;
 	margin-top: 50px;
 	
     float: left;
 }
 
 .right{
-    width: 200px;
-    height: 200px;
+    width: 400px;
+    height: 400px;
     margin-left: 50px;
     margin-top: 50px;
-    border: solid #eee;
+    border: solid MidnightBlue ;
     border-width:1px 0;
     float: left;
 }
@@ -71,4 +82,15 @@ a{
     border-bottom-right-radius:5px;
     border-bottom-left-radius:5px;
     color: white;
+}
+
+#info{
+    font-size: 17px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+#inf-title{
+    color: DarkSlateGray  ;
+    font-family: Verdana, Geneva, sans-serif;
+    text-shadow: 3px 3px 3px white; 
 }
