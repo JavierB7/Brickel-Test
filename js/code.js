@@ -42,7 +42,7 @@ function cambiar(id)
 					" and the sales begin to increase.";
 
 				}else{
-					document.getElementById("inf-title").innerHTML = "Brochure about an advertising company:";
+					document.getElementById("inf-title").innerHTML = "Brochure:";
 					document.getElementById("info").innerHTML = "<a href='brochure/brochure.pdf'>"+"Link"+"</a>";
 				}
 				
